@@ -18,11 +18,17 @@ export default function Layout() {
       tabBarInactiveTintColor: Colors.textColor,
     }}>
 
-      <Tabs.Screen name="index" options={{tabBarIcon: ({color}) => (<Ionicons name='compass' size={28} color={color} />)}} />
+      <Tabs.Screen name="index" options={{tabBarIcon: ({color}) => (
+        <Ionicons name='compass' size={28} color={color} />
+      )}} />
 
       <Tabs.Screen name="category"  options={{tabBarIcon: ({color}) => (<MaterialIcons name="space-dashboard" size={28} color={color} /> )}} />
 
-      <Tabs.Screen name="search" options={{tabBarIcon: ({color}) => (<Ionicons name='search' size={28} color={color} />)}} />
+      <Tabs.Screen name="search" options={{tabBarIcon: ({color}) => (
+        <View style={{borderColor: Colors.secondory, borderWidth: 2, padding: 8, borderRadius: 10}}>
+        <Ionicons name='search-outline' size={24} color={color} />
+        </View>
+      )}} />
 
       <Tabs.Screen name="bookmarks" options={{tabBarIcon: ({color}) => (<Ionicons name='bookmark' size={28} color={color} />)}} />
 
