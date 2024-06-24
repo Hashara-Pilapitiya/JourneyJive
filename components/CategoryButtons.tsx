@@ -6,12 +6,21 @@ import { MaterialCommunityIcons } from '@expo/vector-icons'
 
 const CategoryButtons = () => {
 
-    const itemRef = useRef<TouchableOpacity[] | null>([])
+    const scrollRef = useRef<ScrollView>(null)
+
+    const itemRef = useRef<TouchableOpacity[]>([])
 
     const [activeIndex, setActiveIndex] = React.useState(0)
 
     const handleSelectCategory = (index: number) => {
+
+      const selected = itemRef.current[index]
+
        setActiveIndex(index)
+
+       selected?.measure((x) => {
+           scrollRef.current?.scrollTo({x: x , y: 0, animated: true})
+       })
     }
 
   return (
@@ -19,9 +28,9 @@ const CategoryButtons = () => {
       <Text style={styles.title}>Categories</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{gap: 10, paddingVertical: 10, marginBottom: 10}}>
         {destinationCategories.map((category, index) => (
-            <TouchableOpacity key={index} ref={(el) => itemRef.current[index] == el} onPress={() => handleSelectCategory(index)} style={activeIndex == index ? styles.caregoryBtnActive : styles.caregoryBtn} >
+            <TouchableOpacity key={index} ref={(el) => itemRef.current[index] == el} onPress={() => handleSelectCategory(index)} style={activeIndex === index ? styles.caregoryBtnActive : styles.caregoryBtn} >
                 <MaterialCommunityIcons name={category.icon as any} size={24} color={Colors.textColor} />
-            <Text style={activeIndex == index ? styles.caregoryBtnTxtActive : styles.caregoryBtnTxt}>{category.title}</Text>
+            <Text style={activeIndex === index ? styles.caregoryBtnTxtActive : styles.caregoryBtnTxt}>{category.title}</Text>
             </TouchableOpacity>
         ))}
       </ScrollView>
