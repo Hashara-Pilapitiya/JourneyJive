@@ -1,7 +1,7 @@
 import {StyleSheet,  View, Text, FlatList, ListRenderItem, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import { ListingsType } from '@/types/listingsTypes'
-import { Ionicons } from '@expo/vector-icons'
+import { FontAwesome, Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 
 type Props = {
@@ -22,6 +22,17 @@ const Listings = ({listings}: Props) =>{
                     </View>
 
                     <Text style={{fontWeight: 'bold', fontSize: 16, marginBottom: 10}} numberOfLines={1} ellipsizeMode='tail'>{item.name}</Text>
+
+                    <View style={{flexDirection: 'row', alignItems: 'center', gap: 15}}>
+
+                        <View style={{flexDirection: 'row', alignItems: 'center'}}>
+                            <FontAwesome name='map-marker' size={22} color={Colors.secondory} />
+                            <Text style={styles.itemLocation}>{item.location}</Text>
+                        </View>
+
+                        <Text style={{fontSize: 13, color: Colors.secondory, fontWeight: 800, marginVertical: 5}}>${item.price}</Text>
+
+                    </View>
 
                 </View>
             </TouchableOpacity>
@@ -61,6 +72,12 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         borderWidth: 2,
         borderColor: 'white'
+    },
+
+    itemLocation: {
+        color: Colors.textColor,
+        fontSize: 13,
+        marginLeft: 5
     }
 
 })
