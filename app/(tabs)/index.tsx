@@ -47,7 +47,7 @@ const Page = () => {
 
     <CategoryButtons onCategoryChange={onCatChanged} />
 
-    <Listings listings={ListingData} />
+    <Listings listings={ListingData} category={category} />
 
    </View>
 
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: Colors.textColor,
     marginTop: 20,
-    letterSpacing: 0.5
+    letterSpacing: 0.2
   },
 
   searchSectionWrapper: {
