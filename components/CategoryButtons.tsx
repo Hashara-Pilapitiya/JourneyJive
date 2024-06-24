@@ -4,7 +4,11 @@ import Colors from '@/constants/Colors'
 import destinationCategories from '@/data/categories'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
-const CategoryButtons = () => {
+type Props = {
+  onCategoryChange: (category: string) => void
+}
+
+const CategoryButtons = ({onCategoryChange}: Props) => {
 
     const scrollRef = useRef<ScrollView>(null)
 
@@ -21,6 +25,8 @@ const CategoryButtons = () => {
        selected?.measure((x) => {
            scrollRef.current?.scrollTo({x: x , y: 0, animated: true})
        })
+
+        onCategoryChange(destinationCategories[index].title)
     }
 
   return (

@@ -10,6 +10,13 @@ const Page = () => {
 
   const headerHegiht = useHeaderHeight()
 
+  const [category, setCategory] = React.useState('All')
+
+  const onCatChanged = (category: string) => {
+    console.log("Category: ", category)
+    setCategory(category)
+  }
+
   return (
     <>
     <Stack.Screen options={{ headerTransparent: true, headerTitle: '', headerLeft: () => (
@@ -36,7 +43,7 @@ const Page = () => {
       </TouchableOpacity>
    </View>
 
-    <CategoryButtons />
+    <CategoryButtons onCategoryChange={onCatChanged} />
 
    </View>
 
