@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "name": "Whitehaven Beach",
+        "image": "https://queensland.com/content/dam/teq/consumer/global/images/destinations/the-whitsundays/blog-imges/2020_WYS_WhitehavenBeach_Beaches_JamesVodicka_142946.jpg",
+        "description": "Whitehaven Beach is located on Whitsunday Island, Australia. Known for its crystal-clear waters and powdery white silica sand, it's perfect for swimming, sunbathing, and snorkeling.",
+        "rating": 4.5,
+        "price": 1000,
+        "duration": 5,
+        "location": "Whitsunday Island, Queensland, Australia",
+        "category": "Beaches"
+    },
+    {
+        "id": 2,
+        "name": "Swiss Alps",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9uAXUA_Zq3NemKL-IBAYhP0nCvWXP2DO5-7j1mEvTUegSLpEUK2zdAFfNvjwkoJIIko&usqp=CAU",
+        "description": "The Swiss Alps offer breathtaking views, hiking trails, and world-class skiing. Enjoy picturesque villages, stunning peaks, and serene lakes.",
+        "rating": 4.8,
+        "price": 1500,
+        "duration": 7,
+        "location": "Switzerland",
+        "category": "Mountains"
+    },
+    {
+        "id": 3,
+        "name": "Tokyo",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFdeB-9_KykiMWItIVTi5ei84pXtkCSHxVV8_wEGsOcxKtZRW02VzLEFDbc2xwkoAiLY&usqp=CAU",
+        "description": "Tokyo, Japan’s bustling capital, blends modernity with tradition. Explore its neon-lit streets, historic temples, and diverse culinary scene.",
+        "rating": 4.7,
+        "price": 2000,
+        "duration": 10,
+        "location": "Tokyo, Japan",
+        "category": "Cities"
+    },
+    {
+        "id": 4,
+        "name": "Rome",
+        "image": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg",
+        "description": "Rome, Italy, is a city rich in history, with iconic landmarks like the Colosseum, Vatican City, and the Roman Forum.",
+        "rating": 4.6,
+        "price": 1800,
+        "duration": 8,
+        "location": "Rome, Italy",
+        "category": "Historical"
+    },
+    {
+        "id": 5,
+        "name": "Queenstown",
+        "image": "https://mountainwatch.travel/wp-content/uploads/2020/04/Queenstown1-1-scaled-1.jpg",
+        "description": " Queenstown, New Zealand, is an adventure lover’s paradise, offering bungee jumping, skydiving, white-water rafting, and more.",
+        "rating": 4.9,
+        "price": 1600,
+        "duration": 7,
+        "location": "Queenstown, New Zealand",
+        "category": "Adventure"
+    },
+    {
+        "id": 6,
+        "name": "Serengeti National Park",
+        "image": "https://as2.ftcdn.net/v2/jpg/01/41/04/55/1000_F_141045526_rmKqQSnbEgHtfrVKpWIFeDgiGxwemFcU.jpg",
+        "description": "Serengeti National Park in Tanzania is known for its vast savannahs, diverse wildlife, and the annual Great Migration of wildebeest and zebras.",
+        "rating": 4.8,
+        "price": 2500,
+        "duration": 10,
+        "location": "Tanzania",
+        "category": "Wildlife"
+    },
+    {
+        "id": 7,
+        "name": "Neuschwanstein Castle",
+        "image": "https://www.travelandleisure.com/thmb/umcoSMJygYyG5OIYDdBPgnrJGLc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/01-neuschwanstein-castle-bavaria-NEUSCHWANSTEIN0417-273a040698f24fc1ac22e717bb3f1f0c.jpg",
+        "description": " Neuschwanstein Castle in Germany is a fairy-tale castle that inspired Disney’s Sleeping Beauty Castle, surrounded by stunning scenery.",
+        "rating": 4.7,
+        "price": 2200,
+        "duration": 9,
+        "location": " Bavaria, Germany",
+        "category": "Castles"
+    },
+    {
+        "id": 8,
+        "name": "Santorini",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowatSSdXEuHY_ax-96mpFQvuG_XE8cTdDLQ&s",
+        "description": "Santorini, Greece, is known for its stunning sunsets, white-washed buildings, and crystal-clear waters.",
+        "rating": 4.6,
+        "price": 1800,
+        "duration": 8,
+        "location": "Cyclades, Greece",
+        "category": "Islands"
+    },
+    {
+        "id": 9,
+        "name": "Dubai",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvrOu4B5T3ocpZrnpdlw7o2AtuXV1u2eBw9C_3hfrc-hz72OcBIYqUXJI1oT5PEGDLuE&usqp=CAU",
+        "description": "Dubai is a shopper’s paradise, featuring luxury malls like the Dubai Mall, traditional souks, and endless retail options.",
+        "rating": 4.9,
+        "price": 2000,
+        "duration": 10,
+        "location": "Dubai, United Arab Emirates",
+        "category": "Shopping"
+    },
+    {
+        "id": 10,
+        "name": "Bali",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGohU0VpCiIU8GcZVJ00LZYoriPsf1DsMPww&s",
+        "description": "Bali, Indonesia, offers serene beaches, luxurious spas, and tranquil retreats, making it perfect for relaxation.",
+        "rating": 4.8,
+        "price": 1500,
+        "duration": 7,
+        "location": "Bali, Indonesia",
+        "category": "Relaxation"
+    },
+    {
+        "id": 11,
+        "name": "Lake Bled",
+        "image": "https://chasingthedonkey.b-cdn.net/wp-content/uploads/2019/01/LAKE-BLED_Depositphotos_61617883_l-2015.jpg",
+        "description": "Lake Bled in Slovenia is famous for its picturesque island, medieval castle, and clear waters, ideal for rowing and swimming.",
+        "rating": 4.7,
+        "price": 2500,
+        "duration": 10,
+        "location": "Bled, Slovenia",
+        "category": "Lakes"
+    }
+
+]

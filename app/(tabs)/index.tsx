@@ -5,6 +5,8 @@ import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import { useHeaderHeight } from '@react-navigation/elements'
 import CategoryButtons from '@/components/CategoryButtons'
+import Listings from '@/components/Listings'
+import ListingData from '@/data/destinations.json'
 
 const Page = () => {
 
@@ -44,6 +46,8 @@ const Page = () => {
    </View>
 
     <CategoryButtons onCategoryChange={onCatChanged} />
+
+    <Listings listings={ListingData} />
 
    </View>
 
