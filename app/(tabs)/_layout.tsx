@@ -2,11 +2,21 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { Tabs } from 'expo-router'
 import { FontAwesome, Ionicons, MaterialIcons } from '@expo/vector-icons'
+import Colors from '@/constants/Colors'
 
 export default function Layout() {
   return (
 
-    <Tabs>
+    <Tabs screenOptions={{
+      tabBarStyle: {
+        backgroundColor: Colors.bgColor,
+        borderTopWidth: 0,
+        padding: 0
+      },
+      tabBarShowLabel: false,
+      tabBarActiveTintColor: Colors.secondory,
+      tabBarInactiveTintColor: Colors.textColor,
+    }}>
 
       <Tabs.Screen name="index" options={{tabBarIcon: ({color}) => (<Ionicons name='compass' size={28} color={color} />)}} />
 
