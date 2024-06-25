@@ -9,3 +9,4 @@ export interface ListingsType {
     location: string;
     category: string;
 }
+
