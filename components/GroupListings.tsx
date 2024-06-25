@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
 
   itemreviews: {
     color: Colors.primary,
-    fontSize: 12
+    fontSize: 13,
+    fontWeight: 'bold'
   }
 })
