@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
+import { Image, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { Stack } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
@@ -7,6 +7,8 @@ import { useHeaderHeight } from '@react-navigation/elements'
 import CategoryButtons from '@/components/CategoryButtons'
 import Listings from '@/components/Listings'
 import ListingData from '@/data/destinations.json'
+import GroupListings from '@/components/GroupListings'
+import groupData from '@/data/groups.json'
 
 const Page = () => {
 
@@ -33,6 +35,7 @@ const Page = () => {
    ) }}  />
 
    <View style={[styles.container, {paddingTop: headerHegiht}]}>
+    <ScrollView showsVerticalScrollIndicator={false}>
     <Text style={styles.headingTxt}>Discover Your Next Adventure!</Text>
 
     <View style={styles.searchSectionWrapper}>
@@ -48,6 +51,10 @@ const Page = () => {
     <CategoryButtons onCategoryChange={onCatChanged} />
 
     <Listings listings={ListingData} category={category} />
+
+    <GroupListings listings={groupData} />
+
+    </ScrollView>
 
    </View>
 

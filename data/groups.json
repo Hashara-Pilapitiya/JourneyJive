@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Wanderlust Voyages",
+        "image": "https://marketplace.canva.com/EAFxIlUF1oc/1/0/1600w/canva-colorful-3d-airplane-tour-travel-logo-p8GVWX8SDVc.jpg",
+        "rating": 4.7,
+        "reviews": 1500
+    },
+    {
+        "id": 2,
+        "name": "GlobeTrek Adventures",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbL4N5XW2c8goCia9Z_ce702NSq5Hpj2ZjQ&s",
+        "rating": 4.5,
+        "reviews": 1200
+    },
+    {
+        "id": 3,
+        "name": "Nomad Navigators",
+        "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-agency-logo%2C-travel-company-logo-design-template-a84d60de705a96c5fdb033b1acca7966_screen.jpg?ts=1667975222",
+        "rating": 4.3,
+        "reviews": 1000
+    },
+    {
+        "id": 4,
+        "name": "Odyssey Travel Experts",
+        "image": "https://marketplace.canva.com/EAEaWkA8LrY/2/0/1600w/canva-travel-agency-or-website-logo-with-heart-and-airplane-6qaGNwoh4Xw.jpg",
+        "rating": 4.7,
+        "reviews": 1500
+    },
+    {
+        "id": 5,
+        "name": "Journey Masters",
+        "image": "https://www.shutterstock.com/image-vector/travel-company-agency-logo-vector-260nw-2252037303.jpg",
+        "rating": 4.5,
+        "reviews": 1200
+    },
+    {
+        "id": 6,
+        "name": "Adventure Seeker Tours",
+        "image": "https://marketplace.canva.com/EAE0TUiVOM4/1/0/1600w/canva-travel%2C-tourism-agency-logo-design-template-zhNB5gPn4j8.jpg",
+        "rating": 4.3,
+        "reviews": 1000
+    }
+    
+]
+
