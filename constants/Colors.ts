@@ -4,3 +4,10 @@ export default {
   bgColor: '#F5F5F5',
   textColor: '#333333'
 };
+
+
+
+
+
+
+
